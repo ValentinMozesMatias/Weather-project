@@ -1,0 +1,10 @@
+.dateB{
+    font-size: 50px;
+    font-style: oblique;
+    background: rgb(255, 0, 106);
+    padding: 20px;
+    flex-direction: initial;
+    display: flex;
+    width: 60%;
+}
+
