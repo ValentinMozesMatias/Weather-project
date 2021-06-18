@@ -1,54 +1,60 @@
 .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #238298;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #238298;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-container {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .central-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 80%;
-    background-color: white;
-    border: 0px solid;
-    min-width: 400px;
-    border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border: 0px solid;
+  min-width: 400px;
+  border-radius: 25px;
 }
 
-.body, h1, h2, h3, h4, h5, h6 {
-    margin-top: 20px;
-    font-family: "Comic Sans MS";
-    text-align: center;
-    font-size: 30px;
-    color: #238298;
+.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  font-size: 30px;
+  color: #238298;
 }
 
 .row-view {
-    display: flex;
-    flex-direction: row;
-    background-color: royalblue;
+  display: flex;
+  flex-direction: row;
+  background-color: royalblue;
 }
 
 .container1 {
-    display: flex;
-    height: 100px;
-    flex-grow: 1;
-    background-color: red;
+  display: flex;
+  height: 100px;
+  flex-grow: 1;
+  background-color: green;
 }
 
 .container2 {
-    display: flex;
-    flex-grow: 2;
-    height: 100px;
-    background-color: blue;
+  display: flex;
+  flex-grow: 2;
+  height: 100px;
+  background-color: blue;
 }
