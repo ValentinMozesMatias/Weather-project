@@ -9,11 +9,7 @@ class Icons extends Component {
     render() {
         return (
             <div>
-                <div class="icon sunny">
-                    <div class="sun">
-                <div class="rays"></div>
-                </div>
-            </div>
+            
         </div>
         );
     }

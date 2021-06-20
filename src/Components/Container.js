@@ -18,6 +18,7 @@ const Container = ({ children, city = '' }) => {
         <div className="container">
             <div className="central-container">
                 {children}
+                <displayTemp />
             </div>
         </div>
     )
@@ -48,17 +49,5 @@ const Container = ({ children, city = '' }) => {
 //XMLHttpRequest, AudioNode, AudioContext, and others.
 // Many event targets (including elements, documents, and windows) also support setting 
 // event handlers via onevent properties and attributes.
-
-
-// window.addEventListener('load', () => {
-//     let long
-//     let lat
-
-//     if (navigator.geolocation) {
-
-//     } else {
-//         h1.textContent = "This is not working because...you forgot to pay the bill"
-//     }
-// })
 
 export default Container;

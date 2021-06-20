@@ -1,56 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    }
-    
-    .body{
-        height: 100vh;
-        display: flex;
-        font-family: sans-serif;
-        justify-content:space-evenly;
-    }
-    
-    .location-timezone{
-        display: flexbox;
-        font-size: 30px;
-        font-style: oblique;
-        flex-direction:column-reverse;
-        background: saddlebrown;
-    }
-    
-    .temperature-value {
-        align-items: center;
-        padding: 20px;
-        display: flex;
-        margin: 30px;
-        width: 30%;
-        font-size: 50px;
-        background: salmon;
-        cursor: pointer;
-    }
-    
-    .temperature-description{
-        font-size: 30px;
-        font-style: oblique;
-        background: springgreen;
-        padding: 20px;
-        display: flex;
-        width: 60%;
-    }
-    
-     .location-timezone{
-        padding: 20px;
-        display: flex;
-        height: 45vh;
-        width: 60%;
-        background: slateblue;
-    } 
-    
-    .date{
-        font-size: 20px;
-        font-style: oblique;
-        background: springgreen;
-        padding: 20px;
-        display: flex;
-        width: 60%;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+  align-items: flex-start;
+}
+
+.location-timezone {
+  display: flexbox;
+  font-size: 30px;
+  font-style: oblique;
+  background: saddlebrown;
+  display: flex;
+  height: 5vh;
+  width: 60%;
+  background: slateblue;
+}
+
+.temperature-value {
+  align-items: center;
+  margin: 30px;
+  width: 30%;
+  font-size: 40px;
+  background: salmon;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.temperature-description {
+  font-size: 20px;
+  font-style: oblique;
+  background: springgreen;
+  padding: 20px;
+  display: flex;
+  width: 60%;
+}
+
+.temp-description {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
