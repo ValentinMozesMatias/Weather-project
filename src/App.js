@@ -1,34 +1,23 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import Container from './Components/Container'
 import { SearchBar } from './Components/SearchBar/SearchBar';
 import Title from './Components/Title/Title'
 import './Components/Container.css'
+import DateBuilder from './Components/dateBuilder/DateBuilder';
 
-const App = () => {
+const App = (props) => {
   const [value, setValue] = useState('')
-
-
   return (
     <Container city={value}>
       <Title text='Vremea astazi' />
+      <DateBuilder />
       <SearchBar
         value={value}
         onChangeText={(text) => setValue(text)} />
-      {/* <ContainerClouds>
-
-      </ContainerClouds> */}
       <div className="row-view">
         <div className="container1">
-
-        </div>
-        <div className="container2">
-
-        </div>
-        <div className="container1">
-
         </div>
       </div>
-
     </Container>
   )
 }
